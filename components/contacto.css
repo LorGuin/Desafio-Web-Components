@@ -1,0 +1,115 @@
+/* Seccion de contacto*/
+
+
+.contacto {
+    background-color: #13171C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    width: auto;
+    height: 1000px;
+}
+
+.contacto__title,
+.contacto__label,
+.contacto__input {
+    font-family: "Poppins";
+}
+.contacto__title{
+    width: 600px;
+    height: 80px;
+    font-size: 60px;
+    padding-bottom: 400px;
+
+    
+}
+
+.contacto__input {
+    width: 288px;
+    height: 96px;
+    background-color: #393E46;
+    border-radius: 15px;
+    color: #EEEEEE;
+    font-size: 25px;
+}
+.contacto__form {
+    min-width: 300px;
+
+}
+
+.contacto__mensaje{
+width: 600px;
+height: 280px;
+background-color: #393E46;
+border-radius: 15px;
+color: #EEEEEE;
+font-size: 25px;
+}
+
+.contenedor__nombre_mail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto__submit-button{
+    width: 231px;
+    height: 55px;
+    background-color: #00ADB5;
+    color: black;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 650px){
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .contacto__title{
+        width: 236px;
+        height: 80px;
+        padding: 10px 0 0 0;
+        padding-right: 100px;
+    }
+
+    .contacto__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto__input{
+        width: 313px;
+        height: 59px;
+    }
+
+    .contenedor__nombre_mail{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 100px;
+    }
+    .contacto__mensaje{
+        width: 313px;
+        height: 280px;
+    }
+    .contacto__m{
+        padding-right: 347px;
+    }
+    .contacto__submit-button{
+        width: 312px;
+        height: 55px;
+    }
+    .contacto__submit-cont{
+        padding-right: 100px;
+        margin-top: 10px;
+    }
+}

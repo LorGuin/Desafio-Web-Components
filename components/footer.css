@@ -1,0 +1,41 @@
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.contenedor__logo {
+    display: flex;
+    justify-content: center;
+}
+.contenedor__logo-img{
+    width: 200PX;
+    height: 200PX;
+    
+}
+.contenedor__logo-home {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 10%;
+}
+.contenedor__logo-redes {
+    display: flex;
+    margin-top: 5%;
+    gap: 30px;
+    justify-content: center;
+}
+.logo_all {
+    width: 24px;
+    height: 24px;
+}
+.logo_todos {
+    width: 48px;
+    height: 48px;
+}
+.contenedor__http{
+    display: flex;
+    justify-content: center;
+}

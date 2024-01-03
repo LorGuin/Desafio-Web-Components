@@ -1,0 +1,199 @@
+
+.title-portfolio {
+    display: flex;
+    align-items: center;
+    
+}
+
+.title__portfolio-h1 {
+    width: 700px;
+    size: 96px;
+    line-height: 96px;
+    padding: 50px;
+}
+
+.title__portfolio-h1::first-word {
+    color: white;
+}
+.title__portfolio-h1::after{
+    content: " Portfolio";
+    color: #00AD85;
+}
+
+.title__portfolio-img{
+    width: 353px;
+    height: 340;
+    margin-left: 200px;
+}
+
+@media screen and (max-width: 650px) {
+    .title-portfolio{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white; 
+            
+    }
+    .title__portfolio-h1{
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+    .title__portfolio-img{
+        margin-top: auto;
+        margin-left: 10px;
+    }
+}
+/* SECCION SERVICIOS*/
+
+
+.services-portfolio {
+    background-image: url("/logos/doodle.png");
+  }
+  
+  
+  .services-portfolio {
+    width: auto;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: whitesmoke;
+  }
+  @media screen and (max-width: 650px){
+    .services-portfolio {
+        width: auto;
+        height: auto;
+    }
+  }
+  
+  .services__title {
+    font-family: "Poppins";
+    font-size: 32px;
+    text-align: center;
+    margin-top: 120px;
+  }
+
+  @media screen and (max-width: 650px){
+    .services__title {
+        margin-top: 30px;
+    }
+  }
+  .services__container {
+    height: 90%;
+    display: flex;
+  }
+  
+  @media screen and (max-width: 650px){
+    .services__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        
+    }
+  }
+  
+  .services__divs {
+    width: 350px;
+    height: 523px;
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    background-color: rgba(192, 192, 192, 0.1)
+  }
+  @media screen and (max-width: 650px){
+    .services__divs {
+        width: auto;
+        height: auto;
+        margin: 20px;
+    }
+  }
+
+  .services__logo1 {
+    width: 265px;
+    height: 158px;
+    margin: 10px;
+  }
+
+  .services__logo2 {
+    width: 265px;
+    height: 158px;
+    margin: 10px;
+  }
+  .services__logo3 {
+    width: 265px;
+    height: 158px;
+    margin: 10px;
+  }
+  .about-me__h3-1 {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 5px;
+    width: 280px;
+    height: 73px;
+  }
+  
+  .about-me__h3-2 {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 5px;
+    width: 280px;
+    height: 73px;
+  }
+
+  .about-me__h3-3 {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 5px;
+    width: 280px;
+    height: 73px;
+  }
+  .about-me__text-1 {
+    font-family: "Roboto";
+    font-size: 17px;
+    width: 280;
+    height: 158px;
+    text-align: center;
+    line-height: 24px;
+  }
+  .about-me__text-2 {
+    font-family: "Roboto";
+    font-size: 17px;
+    width: 280;
+    height: 158px;
+    text-align: center;
+    line-height: 24px;
+  }
+  .about-me__text-3 {
+    font-family: "Roboto";
+    font-size: 17px;
+    width: 280;
+    height: 158px;
+    text-align: center;
+    line-height: 24px;
+  }
+
+  .ver-mas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: blanchedalmond;
+ }

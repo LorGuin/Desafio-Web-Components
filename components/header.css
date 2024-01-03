@@ -1,0 +1,159 @@
+.header__container{
+    width: 100%;
+    height: 100%;
+}
+nav {
+    background-color:white;
+    color: black;
+    width: 100%;
+}
+
+
+nav .mobile {
+display: none;
+}
+
+.desktop__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.desktop__varios{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .mobile .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    width: auto;
+    }
+
+
+
+nav .logo {
+    width: 95px;
+    height: 109px;
+    top: 36px;
+    left: 80px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #00c3ff
+}
+
+
+
+.title {
+    display: flex;
+    align-items: center;
+    
+}
+
+.title__h1 {
+    width: 700px;
+    size: 96px;
+    line-height: 96px;
+    padding: 50px;
+}
+
+.title__h1::first-word {
+    color: white;
+}
+.title__h1::after{
+    content: " soy Cristian";
+    color: #00AD85;
+}
+
+.title__img{
+    width: 353px;
+    height: 340;
+    margin-left: 200px;
+}
+
+@media screen and (max-width: 650px) {
+    .title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white; 
+            
+    }
+    .title__h1{
+        text-align: center;
+    }
+    .title__img{
+        margin-top: auto;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+   
+    .header__container {
+        height: 100%;
+       
+    }
+    .more {
+        font-size: 2em;
+    }
+    .mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+        
+    }
+    nav .logo {
+        width: 54px;
+        height: 50px;
+        top: 18px;
+        left: 17px;
+    }
+
+    nav .secondary.full {
+        display: none;
+    }
+
+
+
+    nav .secondary.mini .submenu {
+        background-color: white;
+        position: absolute;
+        display: none;
+        width: 200px;
+        right: 0;
+    }
+
+    
+    nav .secondary.mini:hover  .submenu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    nav .mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 651px) {
+    .desktop__menu {
+      display: none;
+    }
+  }

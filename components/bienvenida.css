@@ -1,0 +1,73 @@
+/* SECCION bienvenida */
+
+
+
+.section__presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 295px;
+    padding: 60px;
+    background-color: #192130;
+    color: #EEEEEE;
+}
+
+
+
+.contenedor_titulo{
+    width: 389px;
+    height: 189px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_titulo {
+    text-align: center;
+    width: 342px;
+    height: 96px;
+}
+.section_texto{
+    width: 389px;
+    height: 189px;
+}
+
+.section_img {
+    width: 223px;
+    height: 415px;
+    margin-right: 230px;
+
+   
+}
+@media screen and (max-width: 650px) {
+    .section__presentacion{
+        width: auto;
+        height: 418px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .title__h1 {
+        width: auto;
+    }
+   
+    .title__h1::after{
+        width: auto;
+    }
+    .contenedor_titulo {
+        width: 278px;
+        height: 100px;
+    }
+    .section_texto{
+        width: 295px;
+        height: 243px;
+    }
+    .section_img{
+        width: 195px;
+        height: 330px;
+        padding: 30px 0 0 0;
+        margin-left: 230px;
+    }
+}
