@@ -19,9 +19,9 @@ function addHeader(el) {
                 <div class="secondary mini">
                 <iconify-icon class="more" icon="flat-color-icons:database"></iconify-icon>
                 <div class="submenu">
-                   <a href="#">Portfolio</a>
-                   <a href="#">Servicios</a>
-                   <a href="#">Contacto</a>
+                   <a href="./portfolio">Portfolio</a>
+                   <a href="./servicios">Servicios</a>
+                   <a href="./contacto.html">Contacto</a>
                 </div>
             </div>
          </div>   
